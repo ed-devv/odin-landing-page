@@ -54,16 +54,18 @@ main button {
     padding: 6px 20px 6px 20px;
     border-radius: 8px;
     font-weight: 600;
+    font-size: 14px;
     color: #e5e7eb;
+    border-style: solid;
     border-color: #3882f6;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 60px 0px 100px 0px;
 }
 
 .information h2 {
@@ -82,13 +84,27 @@ main button {
     flex-direction: column;
     margin: 40px;
     align-items: center;
+    
+}
+
+.container .images p {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    color: #1f2937;
+    margin-top: 6px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background: #e5e7eb;
+    padding: 100px;
 }
 
 .quote {
-    background: #e5e7eb;
     display: flex;
-    justify-content: center;
-    padding: 30px;
+    flex-direction: column;
 }
 
 .quote h2 {
@@ -96,4 +112,51 @@ main button {
     width: 500px;
     text-align: justify;
     font-style: italic;
+}
+
+.quote p {
+    display: flex;
+    justify-content: end;
+    color: #1f2937;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background-color: #3882f6;
+    padding: 50px 200px 50px 200px;
+    border-radius: 12px;
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+
+.action-text {
+    color: #e5e7eb;
+}
+
+.action-button button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 24px 8px 24px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+    color: #e5e7eb;
 }
